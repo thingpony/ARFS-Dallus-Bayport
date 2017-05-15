@@ -120,3 +120,9 @@
 	desc = "Twoooo!"
 	icon_state = "owl"
 	body_parts_covered = HEAD|FACE|EYES
+//ARFS stuff
+
+/obj/item/clothing/mask/gas/carp
+	name = "carp mask"
+	desc = "Gnash gnash."
+	icon_state = "carp_mask"
