@@ -19,3 +19,9 @@
 	desc = "A pair of gloves, they don't look special in any way."
 	item_state_slots = list(slot_r_hand_str = "white", slot_l_hand_str = "white")
 	icon_state = "latex"
+//ARFS
+
+/obj/item/clothing/gloves/weddingring/diamond
+	name = "diamond wedding ring"
+	icon_state = "diamondring"
+	item_state = "diamondring"
