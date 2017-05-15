@@ -99,3 +99,28 @@
 	icon_state = "syndicate-orange"
 	desc = "A thin, ungainly softsuit colored in blaze orange for rescuers to easily locate, looks pretty fragile."
 	slowdown = 4
+//clownEVA suit
+
+/obj/item/clothing/suit/space/clowneva
+	name = "clown EVA suit"
+	icon_state = "spaceclown"
+	item_state = "spaceclown"
+	desc = "a creepy clown suit"
+
+/obj/item/clothing/head/helmet/space/clowneva
+	name = "clown EVA helmet"
+	icon_state = "hardsuit0-clown"
+	item_state = "hardsuit1-clown"
+	desc = "a creepy clown helmet to go with the clowns EVA suit."
+//mimeEVAsuit
+/obj/item/clothing/suit/space/mimeeva
+	name = "mime eva suit"
+	icon_state = "spacemime"
+	item_state = "spacemime"
+	desc = "a creepy mime suit"
+
+/obj/item/clothing/head/helmet/space/mimeeva
+	name = "mime EVA helmet"
+	icon_state = "hardsuit0-mime"
+	item_state = "hardsuit1-mime"
+	desc = "a creepy mime helmet to go with the mimes EVA suit."
