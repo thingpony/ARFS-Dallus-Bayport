@@ -191,3 +191,51 @@
 /mob/living/simple_animal/cat/kitten/New()
 	gender = pick(MALE, FEMALE)
 	..()
+//transported from ARFS -ThingPony
+/mob/living/simple_animal/cat/cak
+	name = "Keeki"
+	desc = "It's a cat made out of cake."
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "cak"
+	item_state = "cak"
+	icon_living = "cak"
+	icon_dead = "cak_dead"
+	health = 50
+	harm_intent_damage = 10
+	gender = NEUTER
+
+/mob/living/simple_animal/pet/cat/mimekitty
+	name = "\improper Mimekitty"
+	desc = "The rare and powerful Mimekitty."
+	icon_state = "mimekitty"
+	item_state = "mimekitty"
+	icon_living = "mimekitty"
+	icon_dead = "mimekitty_dead"
+	gender = FEMALE
+
+/mob/living/simple_animal/pet/cat/space
+	name = "space cat"
+	desc = "It's a cat... in space!"
+	icon_state = "spacecat"
+	icon_living = "spacecat"
+	item_state = "spacecat"
+	icon_dead = "spacecat_dead"
+
+	min_oxy = 0
+	max_oxy = 0
+	min_tox = 0
+	max_tox = 0
+	min_co2 = 0
+	max_co2 = 0
+	min_n2 = 0
+	max_n2 = 0
+	minbodytemp = 0
+
+/mob/living/simple_animal/pet/cat/original
+	name = "Batsy"
+	desc = "The product of alien DNA and bored geneticists."
+	icon_state = "original"
+	icon = 'icons/mob/animal.dmi'
+	icon_living = "original"
+	item_state = "original"
+	icon_dead = "original_dead"

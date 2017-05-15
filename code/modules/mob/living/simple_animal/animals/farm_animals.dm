@@ -282,3 +282,66 @@ var/global/chicken_count = 0
 			qdel(src)
 	else
 		processing_objects.Remove(src)
+
+/mob/living/simple_animal/pig
+	name = "pig"
+	desc = "Oink oink."
+	icon_state = "pig"
+	icon_living = "pig"
+	icon_dead = "pig_dead"
+	speak = list("oink?","oink","OINK")
+	speak_emote = list("oinks")
+//	emote_hear = list("brays")
+	emote_see = list("rolls around")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	meat_type = list(/obj/item/weapon/reagent_containers/food/snacks/meat = 6)
+	response_help  = "pets the"
+	response_disarm = "gently pushes aside the"
+	response_harm   = "kicks the"
+	attacktext = "kicks"
+	health = 50
+	maxHealth = 50
+
+
+/mob/living/simple_animal/turkey
+	name = "turkey"
+	desc = "Benjamin Franklin would be proud."
+	icon_state = "turkey"
+	icon_living = "turkey"
+	icon_dead = "turkey_dead"
+	speak = list("gobble?","gobble","GOBBLE")
+	speak_emote = list("gobble")
+	emote_see = list("struts around")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	meat_type = list(/obj/item/weapon/reagent_containers/food/snacks/meat = 4)
+	response_help  = "pets the"
+	response_disarm = "gently pushes aside the"
+	response_harm   = "kicks the"
+	attacktext = "pecks"
+	health = 50
+	maxHealth = 50
+
+/mob/living/simple_animal/seal
+	name = "seal"
+	desc = "A beautiful white seal."
+	icon_state = "seal"
+	icon_living = "seal"
+	icon_dead = "seal_dead"
+	speak = list("Urk?","urk","URK")
+	speak_emote = list("urks")
+//	emote_hear = list("brays")
+	emote_see = list("flops around")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	meat_type = list(/obj/item/weapon/reagent_containers/food/snacks/meat = 6)
+	response_help  = "pets the"
+	response_disarm = "gently pushes aside the"
+	response_harm   = "kicks the"
+	attacktext = "kicks"
+	health = 50
+	maxHealth = 50

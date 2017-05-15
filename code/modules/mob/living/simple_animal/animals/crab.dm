@@ -44,3 +44,16 @@
 	response_help  = "pets"
 	response_disarm = "gently pushes aside"
 	response_harm   = "stomps"
+
+//ARFS
+
+/mob/living/simple_animal/crab/snow
+	name = "snow crab"
+	real_name = "snow crab"
+	icon_state = "snowcrab"
+	icon_living = "snowcrab"
+	icon_dead = "snowcrab_d"
+	desc = "It's a white crab!"
+	response_help  = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm   = "stomps"

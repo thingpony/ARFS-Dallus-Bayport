@@ -123,3 +123,56 @@
 		return L
 	else
 		..()
+//transported from ARFS -ThingPony
+
+/mob/living/simple_animal/hostile/panda
+	name = "space panda"
+	desc = "You don't need to be faster than a space panda, you just need to outrun your crewmates."
+	icon_state = "panda"
+	icon_living = "panda"
+	icon_dead = "panda_dead"
+	speak = list("RAWR!","Rawr!","GRR!","Growl!")
+	speak_emote = list("growls", "roars")
+	emote_hear = list("rawrs","grumbles","grawls")
+	emote_see = list("stares ferociously", "stomps")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	meat_type = /obj/item/weapon/reagent_containers/food/snacks/bearmeat
+	response_help  = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm   = "hits"
+	maxHealth = 60
+	health = 60
+
+	melee_damage_lower = 20
+	melee_damage_upper = 30
+	attacktext = "claws"
+	attack_sound = 'sound/weapons/bladeslice.ogg'
+	friendly = "bear hugs"
+
+/mob/living/simple_animal/hostile/polar
+	name = "space polar bear"
+	desc = "You don't need to be faster than a space panda, you just need to outrun your crewmates."
+	icon_state = "polarbear"
+	icon_living = "polarbear"
+	icon_dead = "polarbear_dead"
+	speak = list("RAWR!","Rawr!","GRR!","Growl!")
+	speak_emote = list("growls", "roars")
+	emote_hear = list("rawrs","grumbles","grawls")
+	emote_see = list("stares ferociously", "stomps")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	meat_type = /obj/item/weapon/reagent_containers/food/snacks/bearmeat
+	response_help  = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm   = "hits"
+	maxHealth = 60
+	health = 60
+
+	melee_damage_lower = 20
+	melee_damage_upper = 30
+	attacktext = "claws"
+	attack_sound = 'sound/weapons/bladeslice.ogg'
+	friendly = "bear hugs"

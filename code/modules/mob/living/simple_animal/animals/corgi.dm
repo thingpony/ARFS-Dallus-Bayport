@@ -226,3 +226,30 @@
 	response_help  = "pets"
 	response_disarm = "bops"
 	response_harm   = "kicks"
+
+/mob/living/simple_animal/corgi/pug
+	name = "\improper pug"
+	real_name = "pug"
+	desc = "It's a pug."
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "pug"
+	icon_living = "pug"
+	icon_dead = "pug_dead"
+
+
+/mob/living/simple_animal/corgi/doby
+	name = "doberman"
+	response_help  = "pets"
+	response_disarm = "bops"
+	response_harm   = "kicks"
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "doby"
+	icon_living = "doby"
+	icon_dead = "doby_dead"
+	speak = list("YAP", "Woof!", "Bark!", "AUUUUUU")
+	speak_emote = list("barks", "woofs")
+	emote_hear = list("barks!", "woofs!", "yaps.","pants.")
+	emote_see = list("shakes its head.", "chases its tail.","shivers.")
+	see_in_dark = 5
+	speak_chance = 1
+	turns_per_move = 10
