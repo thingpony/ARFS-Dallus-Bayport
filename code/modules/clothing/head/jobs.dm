@@ -189,3 +189,10 @@
 	desc = "A cap surgeons wear during operations. Keeps their hair from tickling your internal organs. This one is navy blue."
 	icon_state = "surgcap_navyblue"
 	item_state_slots = list(slot_r_hand_str = "beret_navy", slot_l_hand_str = "beret_navy")
+
+
+//Lieutenant
+/obj/item/clothing/head/caphat/lieutenant
+	name = "lieutenant's cap"
+	desc = "Worn by the Lieutenant. Not compensating."
+	icon_state = "lieutenant"

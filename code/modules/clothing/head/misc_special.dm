@@ -94,9 +94,7 @@
 		)
 .
 
-/*
- * Cakehat
- */
+/* Old cake hat. See head/misc.dm for the new one.
 /obj/item/clothing/head/cakehat
 	name = "cake-hat"
 	desc = "It's tasty looking!"
@@ -130,7 +128,7 @@
 		damtype = "brute"
 		icon_state = "cake0"
 	return
-
+*/
 
 /*
  * Ushanka
@@ -179,6 +177,24 @@
 		ears.Blend(rgb(user.r_hair, user.g_hair, user.b_hair), ICON_ADD)
 
 		var/icon/earbit = new/icon("icon" = 'icons/mob/head.dmi', "icon_state" = "kittyinner")
+		ears.Blend(earbit, ICON_OVERLAY)
+
+//Mouse Ears
+
+/obj/item/clothing/head/mouse
+	name = "mouse ears"
+	desc = "A pair of mouse ears. Squeak!"
+	icon_state = "mousey"
+	body_parts_covered = 0
+	siemens_coefficient = 1.5
+	item_icons = list()
+
+	update_icon(var/mob/living/carbon/human/user)
+		if(!istype(user)) return
+		var/icon/ears = new/icon("icon" = 'icons/mob/head.dmi', "icon_state" = "mousey")
+		ears.Blend(rgb(user.r_hair, user.g_hair, user.b_hair), ICON_ADD)
+
+		var/icon/earbit = new/icon("icon" = 'icons/mob/head.dmi', "icon_state" = "mouseyinner")
 		ears.Blend(earbit, ICON_OVERLAY)
 
 /obj/item/clothing/head/richard
