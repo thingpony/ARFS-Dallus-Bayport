@@ -1078,3 +1078,36 @@
 	//everything after the power cell had no amounts, I improvised.  -Sayu
 	req_log_access = access_rd
 	has_logs = 1
+
+//Ported over from ARFS code -Thingpony
+
+/obj/machinery/vending/donut
+	name = "donut"
+	desc = "It dispenses donuts to officers! Sprinkle Power!"
+	icon_state = "Donut"
+	icon_deny = "Donut_deny"
+	products = list(/obj/item/weapon/reagent_containers/food/snacks/donut = 10, /obj/item/weapon/reagent_containers/food/snacks/donut/cherryjelly = 6)
+	req_log_access = access_sec_doors
+	has_logs = 1
+
+/obj/machinery/vending/kink
+	name = "KinkMate"
+	desc = "A vending machine for all your unmentionable desires."
+	icon_state = "kink"
+	product_slogans = "Kinky!;Sexy!;Check me out, big boy!"
+//	vend_delay = 15
+	vend_reply = "Have fun, you shameless pervert!"
+	products = list(/obj/item/clothing/under/dress/maid=5,/obj/item/clothing/under/schoolgirl=3,
+	/obj/item/clothing/ears/earmuffs=2,/obj/item/clothing/glasses/sunglasses/blindfold=2,
+	/obj/item/clothing/mask/muzzle=2,/obj/item/weapon/dildo=10,/obj/item/weapon/dildos/canine=4,
+	/obj/item/weapon/dildos/purpledong=4,/obj/item/weapon/dildos/bigblackdick=4,
+	/obj/item/weapon/dildos/floppydick=4,/obj/item/weapon/bulletvibe=4,
+	/obj/item/weapon/fleshlight=2, /obj/item/clothing/under/birthdaysuit = 4,
+	/obj/item/weapon/dildos/analbeads=2, /obj/item/clothing/accessory/collar = 4,
+	/obj/item/clothing/accessory/collar/silver = 4, /obj/item/clothing/accessory/collar/gold = 4,
+	/obj/item/clothing/accessory/collar/bell = 4, /obj/item/clothing/accessory/collar/spike = 4,
+	/obj/item/clothing/accessory/collar/holo = 4, /obj/item/clothing/accessory/collar/pink = 4)
+//	contraband = list()
+//	premium = list(/obj/item/clothing/under/latexmaid=3,/obj/item/weapon/dildo/psych=2,/obj/item/weapon/restraints/handcuffs/kink=2,
+//	/obj/item/clothing/head/wizard/fake=1,/obj/item/clothing/suit/wizrobe/fake=1)
+//	refill_canister = /obj/item/weapon/vending_refill/kink
